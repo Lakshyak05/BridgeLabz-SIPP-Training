@@ -1,0 +1,1 @@
+public class avg_marks {    public static void main(String[] args) {        int p =  94;        int m = 95;        int c = 96;        System.out.println((p+c+m)/3);    }}

@@ -1,0 +1,1 @@
+public class fees1 {    public static void main(String[] args) {        int fee = 125000;        int discount = 10;        int disc_amount = fee * discount/100;        int Final_price = fee - disc_amount;        System.out.println(Final_price);    }}

@@ -1,0 +1,1 @@
+import java.util.Scanner;public class height {    public static void main(String[] args) {        Scanner sc = new Scanner(System.in);        float h = sc.nextFloat();        float h_inch = (float) (h/2.54);        float h_ft = h_inch/12;        System.out.println(h_inch);        System.out.println(h_ft);    }}
