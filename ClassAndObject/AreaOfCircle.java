@@ -1,0 +1,1 @@
+class Circle{    double r;    Circle(double r){        this.r = r;    }    void display(){        System.out.println("Area of Circle: " + 3.14 * r * r);        System.out.println("circumference of Circle: " + 2 * 3.14 * r);    }}public class AreaOfCircle {    public static void main(String[] args) {        Circle c1 = new Circle(5);        c1.display();    }}
